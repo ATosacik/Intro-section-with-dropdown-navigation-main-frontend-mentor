@@ -26,6 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
+![Screenshot 2024-01-14 at 12-20-30 Frontend Mentor Intro section with dropdown navigation](https://github.com/ATosacik/Intro-section-with-dropdown-navigation-main-frontend-mentor/assets/111382391/555b25e4-65c1-49e8-9bcc-90fb9d543add)
+
+![Screenshot 2024-01-14 at 12-21-04 Frontend Mentor Intro section with dropdown navigation](https://github.com/ATosacik/Intro-section-with-dropdown-navigation-main-frontend-mentor/assets/111382391/53b152e2-687b-4a61-9cb6-2b98b66a3993)
+
 ### Links
 
 - Solution URL [here](https://your-solution-url.com).
