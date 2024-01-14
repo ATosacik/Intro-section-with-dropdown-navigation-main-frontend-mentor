@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL [here](https://your-solution-url.com).
+- Solution URL [here](https://atosacik.github.io/Intro-section-with-dropdown-navigation-main-frontend-mentor/).
 
 ## My process
 
@@ -55,4 +55,4 @@ In the future, I want to focus on refining HTML structure, improving navigation 
 ## Author
 
 - Frontend Mentor - [@ATosacik](https://www.frontendmentor.io/profile/ATosacik)
-- Twitter - [@ATo85504885](https://twitter.com/ATo85504885)
+- X - [@ATo85504885](https://twitter.com/ATo85504885)
