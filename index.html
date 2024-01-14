@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Title -->
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- JavaScript -->
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="nav flex" data-visible="false">
+      <div class="logo-box">
+        <a href="#"><img src="./images/logo.svg" alt="logo"></a>
+      </div>
+      <div class="nav__links-wraper flex">
+        <div class="nav__links flex">
+          <div class="nav__link nav__link--first nav__link--dropdown">
+            <p>Features <img src="./images/icon-arrow-down.svg" alt="arrow down"></p>
+            <ul class="dropdown dropdown--left">
+              <li><img src="./images/icon-todo.svg" alt="icon">Todo List</li>
+              <li><img src="./images/icon-calendar.svg" alt="icon">Calendar</li>
+              <li><img src="./images/icon-reminders.svg" alt="icon">Reminders</li>
+              <li><img src="./images/icon-planning.svg" alt="icon">Planning</li>
+            </ul>
+          </div>
+          <div class="nav__link nav__link--dropdown">
+            <p>Company <img src="./images/icon-arrow-down.svg" alt="arrow down"></p>
+            <ul class="dropdown">
+              <li class="text-only">History</li>
+              <li class="text-only">Our Team</li>
+              <li class="text-only">Blog</li>
+            </ul>
+          </div>
+          <a href="#" class="nav__link">Careers</a>
+          <a href="#" class="nav__link">About</a>
+        </div>
+        <div class="nav__links flex">
+          <a href="#" class="nav__link nav__link--acc nav__link--first">Login</a>
+          <a href="#" class="nav__link nav__link--acc nav__link--button">Register</a>
+        </div>
+      </div>
+      <button class="nav__toggle" aria-controls="open/close nav" aria-expanded="false"></button>
+    </nav>
+
+    <section class="hero">
+      <div class="grid-container grid-container--hero flow" style="--flow-space: 3rem; gap: 3rem;">
+        <div class="flow" style="--flow-space: clamp(1.5rem, 5vw, 2rem);">
+          <h1 class="fs-900 fw-700 txt--clr-neutral-3"><span class="d-block">Make</span> remote work</h1>
+          <p class="hero__paragraph fs-500 fw-500 txt--clr-neutral-2">Get your team in sync, no matter your location.
+            Streamline
+            processes,
+            create team rituals, and watch productivity soar.</p>
+          <a class="hero__button">Learn more</a>
+          <div class="client-box flex">
+            <a href="#"><img src="./images/client-databiz.svg" alt="client logo"></a>
+            <a href="#"><img src="./images/client-audiophile.svg" alt="client logo"> </a>
+            <a href="#"><img src="./images/client-meet.svg" alt="client logo"></a>
+            <a href="#"><img src="./images/client-maker.svg" alt="client logo"></a>
+          </div>
+        </div>
+        <div>
+          <img src="./images/image-hero-mobile.png" alt="hero img" class="hero__img mobile-tablet">
+          <img src="./images/image-hero-desktop.png" alt="hero img" class="hero__img desktop">
+        </div>
+      </div>
+    </section>
+  </header>
+</body>
+
+</html>
